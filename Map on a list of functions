@@ -1,0 +1,21 @@
+
+#the defination of functions
+def addition(n):  
+    return n + n 
+def product(n):
+    return n*n
+def sqrt(n):
+    return n**0.5
+def pow_n(n):
+    return n**n
+def print_n(n):
+        print(n)
+#taking input for the fuctions        
+n= input("Enter a number to check its +, *, sqrt, sq:  ")
+
+#List of functions
+funcs = (addition(n), product(n), sqrt(n), pow_n(n))
+
+#maping the print fuction on the list of the functions
+result = map(print_n, funcs)
+
